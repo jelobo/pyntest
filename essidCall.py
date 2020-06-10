@@ -30,8 +30,8 @@ def findSSID(pkt):
 			F_bssids.append(pkt.getlayer(Dot11).addr2)
 			ssid = pkt.getlayer(Dot11Elt).info
 			if ssid == '' or pkt.getlayer(Dot11Elt).ID != 0:
-				print("Hidden Network Detected")
-			print("Network Detected: %s" % (ssid))
+				print "Hidden Network Detected"
+			print "Network Detected: %s" % (ssid)
 
 if __name__ == "__main__":
 	interface = "wlan0"
