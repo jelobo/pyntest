@@ -1,2 +1,2 @@
 # pyntest
-Set of Python scripts relative to ethical pentesting
+Set of Python3 scripts relative to ethical pentesting
